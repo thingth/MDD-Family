@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Theme1BG">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtTopic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="start"
+                android:layout_margin="20dp"
+                android:text="เป็นโรคซึมเศร้าควรทำอย่างไร"
+                android:textAlignment="viewStart"
+                android:textColor="@color/Title"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTopic"
+                android:layout_margin="35dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/Title"
+                android:textSize="16sp"
+                android:text="โรคซึมเศร้านั้น ไม่ว่าใครก็เป็นได้ ดังนั้นจึงไม่ต้องกังวลว่าตัวเองแปลกหรือผิดปกติ\n
+            เพราะโรคซึมเศร้านั้นเป็นเพียงอาการป่วย สามารถรักษาให้หายได้ ดังนั้นสิ่งที่ควรทำเมื่อทราบว่าตัวเองเป็นโรคซึมเศร้าคือยอมรับว่าตัวเองเป็นโรคซึมเศร้า" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtContent"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/Title"
+                android:textSize="16sp"
+                android:text="1. เปลี่ยนความคิดของตัวเอง\n
+            เป็นหนึ่งในวิธีที่สามารถทำได้ด้วยตนเอง ซึ่งการมองโลกในแง่ดี และคิดบวกสามารถช่วยให้จัดระเบียบและจัดการความคิดของตัวเองได้เป็นอย่างดี" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt1"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/Title"
+                android:textSize="16sp"
+                android:text="2. ยอมรับในความผิดพลาดของตนเอง\n
+            ..." />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt2"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/Title"
+                android:textSize="16sp"
+                android:text="3. ยิ้มให้กับตัวเองทุก ๆ วัน\n
+            ..." />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+<!--<ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTopic"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:divider="@color/colorWhite"
+        android:dividerHeight="2dp"
+    />-->

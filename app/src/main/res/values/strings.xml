@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MDD Family</string>
+    <string name="start">S T A R T</string>
+    <string name="enter_name">กรอกชื่อของคุณที่นี่</string>
+
+    <string name="home">หน้าแรก</string>
+    <string name="info">ข้อมูล</string>
+    <string name="content">บทความ</string>
+    <string name="switch_msg_type">เปลี่ยนวิธีการพูดคุย</string>
+
+    <string name="setting">ตั้งค่า</string>
+    <string name="teachai">สอนคำพูดใหม่ ๆ</string>
+    <string name="comment">แสดงความคิดเห็น</string>
+    <string name="appinfo">ข้อมูลของแอปพลิเคชั่น</string>
+    <string name="developerinfo">ข้อมูลของผู้พัฒนาแอปพลิเคชั่น</string>
+
+    <string name="back">ย้อนกลับ</string>
+
+    <string name="sign_in">เข้าสู่ระบบ</string>
+    <string name="sign_out">ออกจากระบบ</string>
+
+    <string name="input">พิมพ์ข้อความที่นี่</string>
+    <string name="keyword">คีย์เวิร์ด</string>
+    <string name="reply">ข้อความตอบรับ</string>
+    <string name="teach">สอนคำศัพท์ใหม่</string>
+
+    <string name="submit">ตกลง</string>
+    <string name="cancel">ยกเลิก</string>
+
+    <string name="txtTest">ข้อความตัวอย่าง</string>
+
+    <string name="navigation_drawer_open">เปิดแถบคำสั่ง</string>
+    <string name="navigation_drawer_close">ปิดแถมคำสั่ง</string>
+</resources>

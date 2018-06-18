@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Theme1BG">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/QuoteAddTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="85dp"
+        android:text="@string/teach"
+        android:textAlignment="viewStart"
+        android:textColor="@color/Title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/QuoteAdd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/QuoteAddTitle"
+        android:layout_alignLeft="@+id/QuoteAddTitle"
+        android:layout_alignRight="@+id/QuoteAddTitle"
+        android:layout_alignStart="@+id/QuoteAddTitle"
+        android:layout_below="@+id/QuoteAddTitle"
+        android:layout_gravity="start"
+        android:layout_marginTop="45dp"
+        android:text="@string/keyword"
+        android:textAlignment="viewStart"
+        android:textColor="@color/Title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/KeywordInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/QuoteAdd1"
+        android:layout_alignStart="@+id/QuoteAdd1"
+        android:layout_below="@+id/QuoteAdd1"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text|textMultiLine"
+        android:hint="@string/input"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/QuoteAdd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/KeywordInsert"
+        android:layout_alignStart="@+id/KeywordInsert"
+        android:layout_centerVertical="true"
+        android:text="@string/reply"
+        android:textColor="@color/Title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ResponseInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/QuoteAdd2"
+        android:layout_alignStart="@+id/QuoteAdd2"
+        android:layout_below="@+id/QuoteAdd2"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text|textMultiLine"
+        android:hint="@string/input"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/QuoteSubmit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ResponseInsert"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/button_bg"
+        android:onClick="QuoteSubmit"
+        android:text="@string/submit"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/Theme1BG"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/QuoteCancel"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/QuoteSubmit"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/QuoteSubmit"
+        android:layout_toRightOf="@+id/QuoteSubmit"
+        android:background="@drawable/button_bg"
+        android:text="@string/cancel"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/Theme1BG"
+        android:textSize="25sp"
+        android:onClick="CancelQuote"/>
+</RelativeLayout>

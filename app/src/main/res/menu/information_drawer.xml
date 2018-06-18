@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mdd_info"
+            android:title="รายชื่ออาการทางจิต" />
+        <item
+            android:id="@+id/mdd_cause"
+            android:title="โรคซึมเศร้าเกิดจากอะไร" />
+        <item
+            android:id="@+id/mdd_danger"
+            android:title="โรคซึมเศร้าอันตรายอย่างไร" />
+        <item
+            android:id="@+id/mdd_activity"
+            android:title="ทำอย่างไรเมื่อเป็นโรคซึมเศร้า" />
+        <item
+            android:id="@+id/mdd_hospital"
+            android:title="รายชื่อโรงพยาบาล"/>
+    </group>
+
+</menu>

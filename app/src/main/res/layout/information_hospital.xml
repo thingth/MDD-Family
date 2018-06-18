@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Theme1BG">
+
+    <TextView
+        android:id="@+id/txtTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_margin="20dp"
+        android:text="รายชื่อโรงพยาบาลจิตเวช"
+        android:textAlignment="viewStart"
+        android:textColor="@color/Title"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTopic"
+        android:layout_margin="30dp"
+        android:text="โรงพยาบาลรัฐบาล"
+        android:textColor="@color/Title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPubList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPub"
+        android:layout_marginLeft="50dp"
+        android:text="คณะแพทย์ศาสตร์ วชิรพยาบาล\n
+ทุกวัน เวลา 8.00 - 16.00 น.\n
+ติดต่อ 02-244-3919\n\n
+โรงพยาบาลศิริราช (ชั้น 7)\n
+วันจันทร์ - ศุกร์ เวลา 9.00 - 12.00 น.\n
+ติดต่อ 02-419-700\n\n
+โรงพยาบาลตากสิน (ชั้น 17)\n
+วันจันทร์ - พฤหัสบดี เวลา 8.00 - 12.00 น.\n
+ติดต่อ 02-437-0123\n\n"
+        android:textColor="@color/Title"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtPri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPubList"
+        android:layout_margin="30dp"
+        android:text="โรงพยาบาลเอกชน"
+        android:textColor="@color/Title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <!--<ExpandableListView
+        android:id="@+id/list_pub"
+        android:layout_below="@id/txtTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ExpandableListView>-->
+
+
+</RelativeLayout>
+
+<!--
+<ListView
+android:id="@+id/mdd_hospital_list"
+android:layout_margin="30dp"
+android:layout_below="@+id/txtTopic"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    />-->
+
+<!--https://www.androidhive.info/2013/07/android-expandable-list-view-tutorial/-->
